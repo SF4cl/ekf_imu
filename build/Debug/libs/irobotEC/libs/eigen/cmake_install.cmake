@@ -1,4 +1,4 @@
-# Install script for directory: D:/rm/code/ekf_imu/libs/irobotEC/src/irobotec
+# Install script for directory: D:/rm/code/ekf_imu/libs/irobotEC/libs/eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

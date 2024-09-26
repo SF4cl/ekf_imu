@@ -118,7 +118,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/IMU
 
 //Program used to build from build.ninja files.
 CMAKE_MAKE_PROGRAM:FILEPATH=D:/Tools/ninja/ninja-win/ninja.exe
@@ -217,8 +217,8 @@ CMAKE_STRIP:FILEPATH=D:/Tools/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/arm-
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=D:/rm/code/ekf_imu/cmake/gcc-arm-none-eabi.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=D:/rm/code/ekf_imu/cmake/gcc-arm-none-eabi.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -243,7 +243,7 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 DART_TESTING_TIMEOUT:STRING=1500
 
 //Path to a file.
-Eigen3_INCLUDE_DIR:PATH=D:/rm/code/ekf_imu/libs/irobotEC/libs
+Eigen3_INCLUDE_DIR:PATH=D:/rm/code/ekf_imu/libs/irobotEC/libs/eigen
 
 //Path to a program.
 GITCOMMAND:FILEPATH=D:/Tools/Git/cmd/git.exe
@@ -288,13 +288,13 @@ SITE:STRING=SF4
 WiringPi_DIR:PATH=WiringPi_DIR-NOTFOUND
 
 //Value Computed by CMake
-ekf_imu_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug
+eigen_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/irobotEC/libs/eigen
 
 //Value Computed by CMake
-ekf_imu_IS_TOP_LEVEL:STATIC=ON
+eigen_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-ekf_imu_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu
+eigen_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu/libs/irobotEC/libs/eigen
 
 //Value Computed by CMake
 irobotEC_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/irobotEC
@@ -426,7 +426,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJDUMP
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //Platform information initialized
@@ -482,7 +482,7 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Eigen3_INCLUDE_DIR
-Eigen3_INCLUDE_DIR-ADVANCED:INTERNAL=0
+Eigen3_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GITCOMMAND
 GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND

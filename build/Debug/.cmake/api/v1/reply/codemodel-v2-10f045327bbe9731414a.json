@@ -10,7 +10,7 @@
 					[
 						1,
 						2,
-						8
+						9
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -55,7 +55,7 @@
 					"childIndexes" : 
 					[
 						4,
-						6
+						7
 					],
 					"jsonFile" : "directory-libs.irobotEC-Debug-89167f800273d46d6d1e.json",
 					"minimumCMakeVersion" : 
@@ -70,7 +70,8 @@
 					"build" : "libs/irobotEC/libs",
 					"childIndexes" : 
 					[
-						5
+						5,
+						6
 					],
 					"jsonFile" : "directory-libs.irobotEC.libs-Debug-7a89a7ae05ad6aa3c4f3.json",
 					"minimumCMakeVersion" : 
@@ -124,10 +125,21 @@
 					]
 				},
 				{
+					"build" : "libs/irobotEC/libs/eigen",
+					"jsonFile" : "directory-libs.irobotEC.libs.eigen-Debug-c9cc9c51a6ba6ca74a1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "libs/irobotEC/libs/eigen"
+				},
+				{
 					"build" : "libs/irobotEC/src",
 					"childIndexes" : 
 					[
-						7
+						8
 					],
 					"jsonFile" : "directory-libs.irobotEC.src-Debug-6291db1163155b65545d.json",
 					"minimumCMakeVersion" : 
@@ -145,7 +157,7 @@
 					{
 						"string" : "3.13"
 					},
-					"parentIndex" : 6,
+					"parentIndex" : 7,
 					"projectIndex" : 2,
 					"source" : "libs/irobotEC/src/irobotec",
 					"targetIndexes" : 
@@ -178,7 +190,7 @@
 					[
 						0,
 						2,
-						8
+						9
 					],
 					"name" : "IMU",
 					"targetIndexes" : 
@@ -197,14 +209,15 @@
 				{
 					"childIndexes" : 
 					[
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
 						3,
 						4,
-						6,
-						7
+						7,
+						8
 					],
 					"name" : "irobotEC",
 					"parentIndex" : 0,
@@ -251,6 +264,14 @@
 						27,
 						28
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "eigen",
+					"parentIndex" : 2
 				}
 			],
 			"targets" : 
@@ -384,7 +405,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "IMU::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-IMU-Debug-6b73402ffd62da78e54d.json",
+					"jsonFile" : "target-IMU-Debug-e6a225e7a31077e86dac.json",
 					"name" : "IMU",
 					"projectIndex" : 0
 				},
@@ -459,9 +480,9 @@
 					"projectIndex" : 3
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "irobotEC::@01e5dd3d2dbc6e6a597a",
-					"jsonFile" : "target-irobotEC-Debug-84293f472a280ff8b4f3.json",
+					"jsonFile" : "target-irobotEC-Debug-0ef3661514f545309ed3.json",
 					"name" : "irobotEC",
 					"projectIndex" : 2
 				}

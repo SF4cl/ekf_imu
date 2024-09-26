@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "libs/irobotEC/libs/eigen",
+		"source" : "libs/irobotEC/libs/eigen"
+	}
+}

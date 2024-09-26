@@ -1,0 +1,3 @@
+[submodule "libs/irobotEC"]
+	path = libs/irobotEC
+	url = https://github.com/SF4cl/irobotEC.git

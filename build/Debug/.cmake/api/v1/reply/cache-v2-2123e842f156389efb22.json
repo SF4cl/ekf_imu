@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)"
+			"value" : "C:/Program Files (x86)/IMU"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -847,7 +847,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "10"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1187,10 +1187,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "FILEPATH",
 			"value" : "D:/rm/code/ekf_imu/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
@@ -1351,7 +1351,7 @@
 			[
 				{
 					"name" : "ADVANCED",
-					"value" : "0"
+					"value" : "1"
 				},
 				{
 					"name" : "HELPSTRING",
@@ -1359,7 +1359,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/rm/code/ekf_imu/libs/irobotEC/libs"
+			"value" : "D:/rm/code/ekf_imu/libs/irobotEC/libs/eigen"
 		},
 		{
 			"name" : "GITCOMMAND",
@@ -1598,7 +1598,7 @@
 			"value" : "WiringPi_DIR-NOTFOUND"
 		},
 		{
-			"name" : "ekf_imu_BINARY_DIR",
+			"name" : "eigen_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1607,10 +1607,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/rm/code/ekf_imu/build/Debug"
+			"value" : "D:/rm/code/ekf_imu/build/Debug/libs/irobotEC/libs/eigen"
 		},
 		{
-			"name" : "ekf_imu_IS_TOP_LEVEL",
+			"name" : "eigen_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1619,10 +1619,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ON"
+			"value" : "OFF"
 		},
 		{
-			"name" : "ekf_imu_SOURCE_DIR",
+			"name" : "eigen_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/rm/code/ekf_imu"
+			"value" : "D:/rm/code/ekf_imu/libs/irobotEC/libs/eigen"
 		},
 		{
 			"name" : "irobotEC_BINARY_DIR",
