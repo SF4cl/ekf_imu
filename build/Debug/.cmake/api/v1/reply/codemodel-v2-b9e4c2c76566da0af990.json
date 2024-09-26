@@ -1,0 +1,482 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "cmake/stm32cubemx",
+					"jsonFile" : "directory-cmake.stm32cubemx-Debug-a874d3cc84b5982fda2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake/stm32cubemx"
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-libs-Debug-dd7a5ca29a7a50124f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/irobotEC",
+					"childIndexes" : 
+					[
+						4,
+						6
+					],
+					"jsonFile" : "directory-libs.irobotEC-Debug-89167f800273d46d6d1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/irobotEC"
+				},
+				{
+					"build" : "libs/irobotEC/libs",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-libs.irobotEC.libs-Debug-7a89a7ae05ad6aa3c4f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "libs/irobotEC/libs"
+				},
+				{
+					"build" : "libs/irobotEC/libs/kalman",
+					"jsonFile" : "directory-libs.irobotEC.libs.kalman-Debug-1543cc71dfd9ae639120.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "libs/irobotEC/libs/kalman",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "libs/irobotEC/src",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-libs.irobotEC.src-Debug-6291db1163155b65545d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "libs/irobotEC/src"
+				},
+				{
+					"build" : "libs/irobotEC/src/irobotec",
+					"jsonFile" : "directory-libs.irobotEC.src.irobotec-Debug-c3a041fac722cd3cb303.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 2,
+					"source" : "libs/irobotEC/src/irobotec",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2,
+						8
+					],
+					"name" : "IMU",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "stm32cubemx",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						6,
+						7
+					],
+					"name" : "irobotEC",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Kalman",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "Continuous::@1fc30f022f129a546695",
+					"jsonFile" : "target-Continuous-Debug-f4a90588b53d4b9742e3.json",
+					"name" : "Continuous",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousBuild::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousBuild-Debug-79df3a401a4ccc64ea16.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousConfigure::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousConfigure-Debug-bbdde4ee76bb0e141be3.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousCoverage::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousCoverage-Debug-b3fb37fa8b16dde9aba7.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousMemCheck::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-56966ffe5afab3241213.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousStart::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousStart-Debug-88605928add95988e607.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousSubmit::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousSubmit-Debug-6a6cd6aa45ea14f08d4c.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousTest::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousTest-Debug-912b2712df374dc90325.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousUpdate::@1fc30f022f129a546695",
+					"jsonFile" : "target-ContinuousUpdate-Debug-66cb5e044b8b6e5c81d1.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Experimental::@1fc30f022f129a546695",
+					"jsonFile" : "target-Experimental-Debug-a5fc07f23cee7d86d13e.json",
+					"name" : "Experimental",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalBuild::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalBuild-Debug-03a7bb67df105328eb1b.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalConfigure::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-2584a05e2dfd1db7bf5b.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalCoverage::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-aa95ab48ec2e79c09194.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalMemCheck::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-abfba239fdbbc60ae956.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalStart::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalStart-Debug-0d8774a922c8901971fc.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalSubmit::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-16d6ea3bd36fec27f193.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalTest::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalTest-Debug-47eb2013f894feadc682.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalUpdate::@1fc30f022f129a546695",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-1cce0806346eab918974.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IMU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IMU-Debug-6b73402ffd62da78e54d.json",
+					"name" : "IMU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Nightly::@1fc30f022f129a546695",
+					"jsonFile" : "target-Nightly-Debug-67aa84d8d3d577f67b65.json",
+					"name" : "Nightly",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyBuild::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyBuild-Debug-60cd806884541b7b96ac.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyConfigure::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyConfigure-Debug-aae50113f610974ad5cc.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyCoverage::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyCoverage-Debug-30fbde58bf3b14d4deab.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyMemCheck::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyMemCheck-Debug-d7f51592352ccd617976.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyMemoryCheck::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-332d0ff4844502f8455a.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyStart::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyStart-Debug-e60f890dae9790e6cf0b.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlySubmit::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlySubmit-Debug-380d9f38208c56bae475.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyTest::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyTest-Debug-c02b0a6c9b3040d3aeaf.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyUpdate::@1fc30f022f129a546695",
+					"jsonFile" : "target-NightlyUpdate-Debug-afd888e33d7549ea98df.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "irobotEC::@01e5dd3d2dbc6e6a597a",
+					"jsonFile" : "target-irobotEC-Debug-84293f472a280ff8b4f3.json",
+					"name" : "irobotEC",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/rm/code/ekf_imu/build/Debug",
+		"source" : "D:/rm/code/ekf_imu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
