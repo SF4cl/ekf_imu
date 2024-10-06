@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/rm/code/ekf_imu/build/Debug/libs/irobotEC/cmake_install.cmake")
+  include("D:/rm/code/ekf_imu/build/Debug/libs/librm/cmake_install.cmake")
 endif()
 

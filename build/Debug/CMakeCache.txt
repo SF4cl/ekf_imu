@@ -243,7 +243,7 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 DART_TESTING_TIMEOUT:STRING=1500
 
 //Path to a file.
-Eigen3_INCLUDE_DIR:PATH=D:/rm/code/ekf_imu/libs/irobotEC/libs/eigen
+Eigen3_INCLUDE_DIR:PATH=D:/rm/code/ekf_imu/libs/librm/libs/eigen
 
 //Path to a program.
 GITCOMMAND:FILEPATH=D:/Tools/Git/cmd/git.exe
@@ -264,13 +264,13 @@ JetsonGPIO_DIR:PATH=JetsonGPIO_DIR-NOTFOUND
 KALMAN_BUILD_EXAMPLES:BOOL=OFF
 
 //Value Computed by CMake
-Kalman_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/irobotEC/libs/kalman
+Kalman_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/librm/libs/kalman
 
 //Value Computed by CMake
 Kalman_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Kalman_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu/libs/irobotEC/libs/kalman
+Kalman_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu/libs/librm/libs/kalman
 
 //Command to build the project
 MAKECOMMAND:STRING=D:\Tools\Cmake\cmake-3.30.3-windows-x86_64\cmake-3.30.3-windows-x86_64\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
@@ -288,22 +288,22 @@ SITE:STRING=SF4
 WiringPi_DIR:PATH=WiringPi_DIR-NOTFOUND
 
 //Value Computed by CMake
-eigen_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/irobotEC/libs/eigen
+eigen_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/librm/libs/eigen
 
 //Value Computed by CMake
 eigen_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-eigen_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu/libs/irobotEC/libs/eigen
+eigen_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu/libs/librm/libs/eigen
 
 //Value Computed by CMake
-irobotEC_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/irobotEC
+rm_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/libs/librm
 
 //Value Computed by CMake
-irobotEC_IS_TOP_LEVEL:STATIC=OFF
+rm_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-irobotEC_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu/libs/irobotEC
+rm_SOURCE_DIR:STATIC=D:/rm/code/ekf_imu/libs/librm
 
 //Value Computed by CMake
 stm32cubemx_BINARY_DIR:STATIC=D:/rm/code/ekf_imu/build/Debug/cmake/stm32cubemx

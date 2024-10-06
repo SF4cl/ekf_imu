@@ -69,3 +69,5 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     # Add user defined libraries
     ${PROJECT_NAME}_libs
 )
+
+include(${CMAKE_CURRENT_LIST_DIR}/openocd/openocd.cmake)
